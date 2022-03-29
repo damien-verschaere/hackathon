@@ -141,7 +141,6 @@ ul{
 }
 
 .footer{
-    position: fixed;
     background-color: white;
     padding: 70px 0;
     bottom: 0;
@@ -189,6 +188,7 @@ ul{
     text-decoration: none;
     transform: scale(1.1);
     transition: transform 0.5s;
+    color: #7ed957;
 }
 
 .fa{
