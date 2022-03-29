@@ -8,7 +8,7 @@
     <title>Klapss</title>
 </head>
 <body>
-    
+    <?php require "./requires/header.php" ?>
     <main>
 
     </main>
