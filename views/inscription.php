@@ -40,7 +40,9 @@
         </form>
     </div>
 </main>
-    <?php require "../requires/footer.php" ?>
+    <div id='footer'>
+        <?php require "../requires/footer.php" ?>
+    </div>
 </body>
 </html>
 
