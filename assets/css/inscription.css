@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Newsreader:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    min-height:100vh;
+}
+/*////////HEADER///////*/
+header{
+    min-height:10%;
+}
+.containerNav{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: white;
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
+}
+
+.navbar ul{
+    margin-right: 10rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1.2px;
+    padding: 3rem;
+    font-family: 'Cormorant Garamond', serif;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul a:hover{
+    color:rgb(14, 247, 72);
+    text-decoration:none;
+}
+
+.pictos img{
+    width: 40px;
+    height: 40px;
+    margin-left: -60%;
+}
