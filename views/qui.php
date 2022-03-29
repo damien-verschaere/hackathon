@@ -10,7 +10,7 @@
     <body>
         <image src="../assets/img/logo.png">
     
-    <div class="text">
+    <div class="text1">
         <p>La société Champiface est basée à Narbonne. Notre entreprise est en activité depuis le jeudi 17 janvier 2019.</p>
         <br><h4>Description d'activité, projet :</h4></br>
         <p>Fabrication et vente d'outil de peinture « KLAPSS» pour particuliers et professionnel.</p>
