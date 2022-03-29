@@ -1,4 +1,127 @@
+/*footer.php*/
+
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: white;
+    padding: 70px 0;
+    bottom: 0px;
+}
+
+.column{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.column h4{
+    font-size: 22px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.column h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #7ed957;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.column ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.column ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+
+.column ul li a:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.fa{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.fa:hover{
+    text-decoration: none;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.fa-facebook:before{
+    content: "\f09a";
+    font-size: 35px;
+    color: #7ed957;
+}
+
+.fa-twitter:before{
+    content: "\f09a";
+    font-size: 35px;
+    color: #7ed957;
+}
+
+.fa-instagram:before{
+    content: "\f09a";
+    font-size: 35px;
+    color: #7ed957;
+}
+
+.fa-youtube:before{
+    content: "\f09a";
+    font-size: 35px;
+    color: #7ed957;
+}
+
+/*conditions.php*/
+
+/*qui.php*/
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.text{
+    text-align: center;
 }
