@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Newsreader:ital,wght@1,200&display=swap');
 
-*{
+html,body{
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,7 @@
 
 .containerNav{
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,4 +64,59 @@
     height: auto;
     background-image: url("https://www.zone-outillage.fr/sites/default/files/visuels/actus/main/2613/pistolet-a-peinture-airless-wagner-powerpainter-90-extra-hea-test.jpg");
     background-image: cover;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------ PRODUITS----------------------------------------------- */
+.produits{
+    height: 500px;
+}
+.mainProduit{
+    height: 500px;
+}
+.produit{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-left: 5%;
+    display: flex;
+}
+.card h5{
+    margin-top: 2%;
+}
+
+
+/* -----------------------------------------------------------PRODUIT------------------------------------------------------------------------ */
+.pack1{
+    margin-top: 3%;
+    display: flex;
+}
+.pack1 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2em;
+}
+
+.buttonP1{
+    display:flex;
+    flex-direction: column;
+
+}
+.pack1 img{
+    
+    height:35rem;
+}
+button{
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #7ed957;
+    border-radius: 28px;
 }

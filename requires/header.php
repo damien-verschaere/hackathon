@@ -1,11 +1,11 @@
-<header>
+
         <nav class="containerNav">
             <div class="logo">
-                <a href="index.php"><img src="../assets/img/logo.png" alt=""></a>
+                <a href="../views/home"><img src="../assets/img/logo.png" alt=""></a>
             </div>
             <div class="navbar">
                 <ul>
-                    <a href=""><li>Produits</li></a>
+                    <a href="../views/produits.php"><li>Produits</li></a>
                     <a href=""><li>Tuto</li></a>
                     <a href=""><li>Qui sommes-nous ?</li></a>
                 </ul>
@@ -16,4 +16,3 @@
                 </ul>
             </div>
         </nav>
-</header>
