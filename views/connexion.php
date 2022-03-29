@@ -9,38 +9,24 @@
 </head>
 <body>
     <header>
-        <nav class="containerNav">
-                <div class="logo">
-                    <a href="index.php"><img src="../assets/img/logo.png" alt=""></a>
-                </div>
-                <div class="navbar">
-                    <ul>
-                        <a href=""><li>Produits</li></a>
-                        <a href=""><li>Tuto</li></a>
-                        <a href=""><li>Qui sommes-nous ?</li></a>
-                    </ul>
-                </div>
-                <div class="picto">
-                    <ul class="pictos">
-                        <li><a href="Payment.php"><img src="../assets/img/panier.jpg" alt="panier"></a></li>
-                    </ul>
-                </div>
-            </nav>
+        <?php require "../requires/header.php" ?>
     </header>
+    <main>
     <article>
         <h1>Connexion</h1>
     </article>
     <article>
-        <form method="post"></form>
+        <form method="post">
             <input type="text" name="login" placeholder="Login"></input>
             <input type="password" placeholder="Password"></input>
-            <input type="submit" name="connect"></input>
+            <input type="submit" name="submit" id="submit" value="submit"></input>
             <?php 
-            if(isset($_POST['connect'])){
-            header("location:../profils.php"); 
+            if(isset($_POST['submit'])){
+            header("location:../views/profils.php"); 
             }
             ?>
         </form>
     </article>
+    </main>
 </body>
 </html>
