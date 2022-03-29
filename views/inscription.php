@@ -8,23 +8,43 @@
     <title>Inscription</title>
 </head>
 <body>
-<?php require "../requires/header.php" ?>
-    <article>
-        <h1>Inscription</h1>
-    </article>
-    <article>
-        <form method="post">
-            <input type="text" name="login" placeholder="Login"></input>
-            <input type="email" placeholder="Email"></input>
-            <input type="password" placeholder="Password"></input>
-            <input type="password" placeholder="Confirmation de password"></input>
-            <input type="submit" name="submit"></input>
-            <?php 
-            if(isset($_POST['submit'])){
-            header("location:../views/connexion.php"); 
-            }
-            ?>
+<main>
+
+    <?php require "../requires/header.php" ?>
+    <div class="login-box">
+        <h2>Inscription</h2>
+        <form>
+            <div class="user-box">
+                <input type="text" name="login" required="">
+                <label>Username</label>
+            </div>
+            <div class="user-box">
+                <input type="text" name="" required="">
+                <label>Email</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="" required="">
+                <label>Password</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="" required="">
+                <label>Confirmation de password</label>
+            </div>
+            <a href="../views/connexion.php">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Submit
+            </a>
         </form>
-    </article>
+    </div>
+</main>
+    <?php require "../requires/footer.php" ?>
 </body>
 </html>
+
+
+
+
+

@@ -12,21 +12,28 @@
         <?php require "../requires/header.php" ?>
     </header>
     <main>
-    <article>
-        <h1>Connexion</h1>
-    </article>
-    <article>
-        <form method="post">
-            <input type="text" name="login" placeholder="Login"></input>
-            <input type="password" placeholder="Password"></input>
-            <input type="submit" name="submit" id="submit" value="submit"></input>
-            <?php 
-            if(isset($_POST['submit'])){
-            header("location:../views/profils.php"); 
-            }
-            ?>
+    <div class="login-box">
+        <h2>Login</h2>
+        <form>
+            <div class="user-box">
+            <input type="text" name="" required="">
+            <label>Username</label>
+            </div>
+            <div class="user-box">
+            <input type="password" name="" required="">
+            <label>Password</label>
+            </div>
+            <a href="../views/profils.php">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+            </a>
         </form>
-    </article>
+        </div>
     </main>
+    <?php require "../requires/footer.php" ?>
 </body>
 </html>
+
