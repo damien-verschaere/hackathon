@@ -7,6 +7,7 @@
     <title>Inscription</title>
 </head>
 <body>
+<?php require "./requires/header.php" ?>
     <article>
         <h1>Inscription</h1>
     </article>

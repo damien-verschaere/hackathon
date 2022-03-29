@@ -7,6 +7,7 @@
     <title>Profils</title>
 </head>
 <body>
+<?php require "./requires/header.php" ?>
     <article>
         <h1>Bienvenue Jean-Michal</h1>
     </article>

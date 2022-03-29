@@ -7,6 +7,7 @@
     <title>Connexion</title>
 </head>
 <body>
+<?php require "./requires/header.php" ?>
     <article>
         <h1>Connexion</h1>
     </article>
