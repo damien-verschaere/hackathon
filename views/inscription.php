@@ -8,35 +8,39 @@
     <title>Inscription</title>
 </head>
 <body>
-<?php require "../requires/header.php" ?>
+<main>
+
+    <?php require "../requires/header.php" ?>
     <div class="login-box">
-    <h2>Inscription</h2>
-    <form>
-    <div class="user-box">
-            <input type="text" name="login" required="">
-            <label>Username</label>
+        <h2>Inscription</h2>
+        <form>
+            <div class="user-box">
+                <input type="text" name="login" required="">
+                <label>Username</label>
             </div>
             <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Email</label>
+                <input type="text" name="" required="">
+                <label>Email</label>
             </div>
             <div class="user-box">
-            <input type="password" name="" required="">
-            <label>Password</label>
+                <input type="password" name="" required="">
+                <label>Password</label>
             </div>
             <div class="user-box">
-            <input type="password" name="" required="">
-            <label>Confirmation de password</label>
+                <input type="password" name="" required="">
+                <label>Confirmation de password</label>
             </div>
-        <a href="../views/connexion.php">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        Submit
-        </a>
-    </form>
+            <a href="../views/connexion.php">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Submit
+            </a>
+        </form>
     </div>
+</main>
+    <?php require "../requires/footer.php" ?>
 </body>
 </html>
 

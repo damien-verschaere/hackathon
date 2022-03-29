@@ -42,7 +42,9 @@
             </a>
         </form>
         </div>
+        
     </main>
+    <?php require "../requires/footer.php" ?>
 </body>
 </html>
 
