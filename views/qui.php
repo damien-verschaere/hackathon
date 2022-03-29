@@ -8,7 +8,9 @@
     </head>
 
     <body>
-        <image src="../assets/img/logo.png">
+        <div class="img-logo">
+            <image src="../assets/img/logo.png">
+        </div>
     
     <div class="text1">
         <p>La société Champiface est basée à Narbonne. Notre entreprise est en activité depuis le jeudi 17 janvier 2019.</p>
