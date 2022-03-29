@@ -1,4 +1,3 @@
-<header>
         <nav class="containerNav">
             <div class="logo">
                 <a href="index.php"><img src="../assets/img/logo.png" alt=""></a>
@@ -16,4 +15,3 @@
                 </ul>
             </div>
         </nav>
-</header>
