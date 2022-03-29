@@ -8,7 +8,7 @@
 
 .containerNav{
 
-    position: fixed;
+    /* position: fixed; */
     z-index: 10;
     width: 100%;
     height: 10%;
@@ -62,8 +62,8 @@
 
 /*////////INDEX/////////*/
 .imageAccueil img{
-    position: relative;
-    margin-top:5%;
+  
+    
     width: 100%;
     height: 85vh;
 }
@@ -89,7 +89,7 @@
 
 /* -----------------------------------------------------------PRODUIT------------------------------------------------------------------------ */
 .pack1{
-    margin-top: 3%;
+    margin-top: 5%;
     display: flex;
 }
 .pack1 p{
@@ -232,12 +232,12 @@ ul{
 
 /*qui.php*/
 
-img{
+/* img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
-}
+} */
 
 .text1{
     text-align: center;
