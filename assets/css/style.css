@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Newsreader:ital,wght@1,200&display=swap');
 
-html,body{
-    margin: 0;
-    padding: 0;
+/*////////HEADER///////*/
+*{
+    margin:0;
+    padding:0;
 }
 
-/*////////HEADER///////*/
-
 .containerNav{
+
+    position: fixed;
+    z-index: 10;
     width: 100%;
-    /* position: fixed; */
+    height: 10%;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,7 +22,7 @@ html,body{
 
 .logo img{
     width: 200px;
-    height: 200px;
+    height: auto;
 }
 
 .navbar ul{
@@ -58,22 +61,12 @@ html,body{
 }
 
 /*////////INDEX/////////*/
-
-.imgAcceuil{
+.imageAccueil img{
+    position: relative;
+    margin-top:5%;
     width: 100%;
-    height: auto;
-    background-image: url("https://www.zone-outillage.fr/sites/default/files/visuels/actus/main/2613/pistolet-a-peinture-airless-wagner-powerpainter-90-extra-hea-test.jpg");
-    background-image: cover;
+    height: 85vh;
 }
-
-
-
-
-
-
-
-
-
 /*------------------------------------------------------------------ PRODUITS----------------------------------------------- */
 .produits{
     height: 500px;
@@ -119,4 +112,134 @@ button{
     margin-right: 30%;
     background-color: #7ed957;
     border-radius: 28px;
+}
+.text{
+    font-size:20px
+}
+
+/*footer.php*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: white;
+    padding: 70px 0;
+    bottom: 0px;
+}
+
+.column{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.column h4{
+    font-size: 22px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.column h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #7ed957;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.column ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.column ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+
+.column ul li a:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.fa{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.fa:hover{
+    text-decoration: none;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.fa-facebook:before{
+    content: "\f09a";
+    font-size: 35px;
+    color: #7ed957;
+}
+
+.fa-twitter:before{
+    content: "\f09a";
+    font-size: 35px;
+    color: #7ed957;
+}
+
+.fa-instagram:before{
+    content: "\f09a";
+    font-size: 35px;
+    color: #7ed957;
+}
+
+.fa-youtube:before{
+    content: "\f09a";
+    font-size: 35px;
+    color: #7ed957;
+}
+
+/*qui.php*/
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.text1{
+    text-align: center;
+
 }
