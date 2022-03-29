@@ -7,7 +7,9 @@
     <title>Profils</title>
 </head>
 <body>
+    <header>
 <?php require "./requires/header.php" ?>
+    </header>
     <article>
         <h1>Bienvenue Jean-Michal</h1>
     </article>
@@ -18,6 +20,7 @@
             <input type="email" placeholder="Email"></input>
             <input type="password" placeholder="Password"></input>
             <input type="password2" placeholder="Confirmation de password"></input>
+            <input type="submit" name="submit"></input>
         </form>
     </article>
 </body>
