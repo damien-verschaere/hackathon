@@ -75,13 +75,17 @@ header{
     height: 500px;
     
 }
+.mainProduit h3,.P1 h3{
+    text-align: center;
+    margin-top: 5%;
+}
 .mainProduit{
     min-height: 100vh;
     margin-top: 10%;
 }
 .produit{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
     position: relative;
 }
@@ -103,13 +107,13 @@ header{
 
 .P1{
     min-height: 100vh;
-    margin-top: 10%;
+    margin-top: 15%;
 }
-.pack1{
+.pack1,.pack2{
     display: flex;
     position: relative;
 }
-.pack1 p{
+.pack1 p,.pack2 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 2em;
 }
@@ -119,6 +123,9 @@ header{
 }
 .pack1 img{
     height:35rem;
+}
+.pack2 img{
+    height: 25rem;
 }
 button{
     margin-top: 3%;

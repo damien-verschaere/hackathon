@@ -30,8 +30,7 @@
         </div>
 
     </main>
-    <?php require "../requires/
-    " ;?>
+    <?php require "../requires/footer.php" ;?>
 </body>
 
 </html>

@@ -38,7 +38,13 @@
                 </div>
             </div>
         </section>
+        
+        <h3> REALISEZ RAPIDEMENT DES TRAVAUX D'ANGLE,
+            AVEC UNE GRANDE PRECISION.
+        </h3>
+        
     </main>
+    <?php require "../requires/footer.php"; ?>
 </body>
 
 </html>
