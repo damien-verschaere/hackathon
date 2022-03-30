@@ -6,7 +6,7 @@
 
 <!-- sections -->
 <footer class="footer">
-    <div class="containerFooter">
+    <div class="container">
         <div class="row">
             <div class="column">
                 <h4>À propos</h4>

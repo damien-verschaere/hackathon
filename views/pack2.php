@@ -15,14 +15,16 @@
         <?php require "../requires/header.php" ?>
     </header>
     <main class="P1">
-        <div class="pack1 ms-5">
-            <img src="../assets/img/champiface1.jpg" alt="Klapss champiface ">
+        <div class="pack2 ms-5">
+            <img src="../assets/img/pack2.png" alt="Klapss champiface ">
             <div class="buttonP1 mx-3">
-                <h2 class="mx-5 mb-3 text-center">KLAPSS APPLICATEUR DE PEINTURE AVEC PINCEAU</h2>
+                <h2 class="mx-5 mb-3 text-center">KLAPSS Applicateur a réchampir +<br> pinceau + 02 velours adhésifs de protection</h2>
                 <p>
+                    2 adhésifs de protection pour remplacement après usure, 01 pour protection des murs, 01 pour porte-vitrée
                     Prise en main facile pour les peintres professionnels ou non.
-                    Obtenez facilement une finition soignée, peignez sans déborder Réalisez rapidement des travaux d’angle, avec une grande précision. Une alternative aux adhésifs de protection.
-                    Fini les scotchs de masquage C’est l’accessoire idéal pour peindre les séparations entre 2 couleurs, permet des lignes précises et une bonne application de peinture.
+                    Obtenez facilement une finition soignée, peignez sans déborder Réalisez rapidement des travaux d’angle, avec une grande précision.
+                    Une alternative aux adhésifs de protection.
+                    Fini les scotchs de masquage, C’est l’outil idéal pour peindre les séparations entre 2 couleurs, permet des lignes précises et une bonne application de peinture.
                 </p>
                 <button id="myBtn" >ajoutez au panier</button>
                 <!-- The Modal -->
@@ -61,13 +63,11 @@
                             modal.style.display = "none";
                         }
                     }
-                </script>
-               <button ><a href="../views/panier.php">Achetez maintenant</a></button>
+                    </script>
+                  <button ><a href="../views/panier.php">Achetez maintenant</a></button>
             </div>
         </div>
-        <h3>PEIGNEZ SANS DEBORDER</h3>
+        <h3>UNE ALTERNATIVE AUX ADHESIF DE PROTECTION</h3>
     </main>
-    <?php require "../requires/footer.php" ;?>
+    <?php require "../requires/footer.php" ?>
 </body>
-
-</html>
