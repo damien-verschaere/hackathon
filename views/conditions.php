@@ -1,14 +1,17 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <html>    
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../assets/css/style.css"">
         <title>Conditions générales de vente</title>
+        <header>    
+                <?php require_once '../requires/header.php';?>
+        </header>
     </head>
 
         <body>
-
+        <main>
             <h2>Conditions générales de vente</h2>
                 <p>Les informations des champs ci-dessous apparaîtront à plusieurs reprises dans les Conditions générales de vente.
                 Veuillez trouver ci-dessous nos conditions générales relatives à l'utilisation du site internet klapss.fr et à l'achat de produits sur ce site.
@@ -82,16 +85,11 @@
 
             <h3>Modifications</h3>
                 <p>Nous sommes en droit de modifier ponctuellement la présente Politique en matière de protection de la vie privée, par exemple, afin de refléter des changements dans nos pratiques ou pour toute autre raison d'ordre opérationnel, légal ou réglementaire.</p>
-
-        </body>
+        </main>
+                
+                <div id="footer">    
+                    <?php require_once '../requires/footer.php';?>
+                </div>
+        
+            </body>
 </html>
-
-
-
-
-
-
-
-
-
-
