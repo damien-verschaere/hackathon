@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Klapss</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
         </div>
            <div class="textPre">
                 <h1>Bienvenue sur Klapss: La solution innovente à vos travaux de peinture.</h1>
-                <a href=""><button>Découvrir</button></a>
+                <a href="#prod"><button>Découvrir</button></a>
             </div> 
             
         <section class="containerRef">
@@ -28,21 +28,23 @@
                 <iframe width="450" height="250" src="https://www.youtube.com/embed/_q4_Pczk2QQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="video">
-                <iframe width="450" height="250" src="https://www.youtube.com/embed/6oP0-KP_5NU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="450" height="250" src="https://www.youtube.com/embed/zBMAXiq_iuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
-        </section>
+        </section >
 
-        <section class="containerProduit">
+        <div id="prod">
+
+        </div>
+
+        <section  class="containerProduit">
             <div class="prodImage">
                 <img src="https://m.media-amazon.com/images/I/71HQqkWJF8L._AC_SX679_.jpg" alt="">
             </div>
             <div class="textProd1">
-                <h1>Champiface 3000</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima ut blanditiis voluptates dolores error, doloribus excepturi, totam nostrum aperiam accusantium vero dicta maxime quaerat aut illo veniam mollitia, sint at!</p>
-            </div class="text prod2">
-            <div>
-
+                <h1>L'outil Klapss</h1>
+                <p>Il est possible de faire beaucoup de choses avec Klapss : • Réussir les bords avec le pinceau muni du Klapss • Peindre le bord d'un mur sans toucher le plafond • Peindre un mur sans toucher le chambranle des portes . • Peindre les châssis des fenêtres • Peindre les portes ou les moulures</p>
+                <a href="../views/produits.php"><button>Acheter</button></a>
             </div>
         </section>
         
@@ -51,17 +53,17 @@
             <div class="comClient">
                 <div class="avis">
                     <img src="https://st2.depositphotos.com/3994049/7791/v/600/depositphotos_77912838-stock-illustration-quote-marks-icon-with-shadow.jpg" alt="Image guillemet">
-                    <p>"Un travail de qualité, rapide et soignée"</p>
+                    <p>"Produit très qualitatif, de belle finitions "</p>
                     <h4>Stephan</h4>
                 </div>
                 <div class="avis">
                 <img src="https://st2.depositphotos.com/3994049/7791/v/600/depositphotos_77912838-stock-illustration-quote-marks-icon-with-shadow.jpg" alt="Image guillemet">
-                    <p>Contant très amicale, et très didactique</p>
+                    <p>Super les tutos !!!</p>
                     <h4>Paul</h4>
                 </div>
                 <div class="avis">
                 <img src="https://st2.depositphotos.com/3994049/7791/v/600/depositphotos_77912838-stock-illustration-quote-marks-icon-with-shadow.jpg" alt="Image guillemet">
-                    <p>Un travail efficace et une reponse diligente</p>
+                    <p>Réchampir n'a jamais été aussi simple</p>
                     <h4>Bernard</h4>
                 </div>
             </div>
