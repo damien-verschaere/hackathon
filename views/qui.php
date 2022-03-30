@@ -5,9 +5,13 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../assets/css/style.css"">
         <title>Qui sommes-nous ?</title>
+        <header>    
+                <?php require_once '../requires/header.php';?>
+        </header>
     </head>
 
     <body>
+        <main>
         <div class="img-logo">
             <image src="../assets/img/logo.png">
         </div>
@@ -31,10 +35,11 @@
         <p>25 000 €</p>
         <p>TVA : assujetti à la TVA à partir de 180 000 € CFE : chambre des métiers</p>
     </div>
-    
+        
+        </main>
+
+        <div id="footer">    
+                    <?php require_once '../requires/footer.php';?>
+        </div>
     </body>
 </html>
-
-
-
-
