@@ -1,5 +1,6 @@
         <nav class="containerNav">
             <div class="logo">
+                
                 <a href="../views/home"><img src="../assets/img/logo.png" alt=""></a>
             </div>
             <div class="navbar">
@@ -13,6 +14,11 @@
                     <a href="">
                         <li>Qui sommes-nous ?</li>
                     </a>
+                </ul>
+            </div>
+            <div class="picto">
+                <ul class="pictos">
+                    <li><a href="../views/inscription.php"><img src="../assets/img/user.jpg" alt="logo"></a></li>
                 </ul>
             </div>
             <div class="picto">

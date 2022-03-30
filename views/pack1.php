@@ -10,8 +10,10 @@
     <title>Klapss</title>
 </head>
 
-<body>
-    <?php require "../requires/header.php" ?>
+<body class="bodyP1">
+    <header>
+        <?php require "../requires/header.php" ?>
+    </header>
     <main class="P1">
         <div class="pack1 ms-5">
             <img src="../assets/img/champiface1.jpg" alt="Klapss champiface ">
