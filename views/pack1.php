@@ -30,6 +30,8 @@
         </div>
 
     </main>
+    <?php require "../requires/
+    " ;?>
 </body>
 
 </html>

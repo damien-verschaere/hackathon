@@ -9,7 +9,7 @@
     <title>Klapss</title>
 </head>
 
-<body>
+<body class="bodyP1">
     <header>
     <?php require "../requires/header.php" ?>
     </header>
@@ -17,7 +17,7 @@
         <div class="pack1 ms-5">
             <img src="../assets/img/champiface1.jpg" alt="Klapss champiface ">
             <div class="buttonP1 mx-3">
-                <h2 class="mx-5 mb-3 text-center">KLAPSS APPLICATEUR DE PEINTURE AVEC PINCEAU</h2>
+                <h2 class="mx-5 mb-3 text-center">KLAPSS Applicateur a réchampir + pinceau + 02 velours adhésifs de protection</h2>
                 <p>
                     Prise en main facile pour les peintres professionnels ou non.
                     Obtenez facilement une finition soignée, peignez sans déborder Réalisez rapidement des travaux d’angle, avec une grande précision. Une alternative aux adhésifs de protection.
