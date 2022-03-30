@@ -319,3 +319,17 @@ ul{
     font-size: 35px;
     color: #7ed957;
 }
+
+/*qui.php*/
+
+.img-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.text1{
+    text-align: center;
+
+}
