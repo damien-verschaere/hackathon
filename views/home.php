@@ -9,8 +9,10 @@
     <title>Klapss</title>
 </head>
 <body>
-    <?php require "../requires/header.php" ?>
-    <main>
+    <header>
+        <?php require "../requires/header.php" ?>
+    </header>
+        <main>
         <div class="imageAccueil">
             <img src="https://cache.marieclaire.fr/data/photo/w1000_ci/5g/materiel-pinceau-peinture-bleu.jpg" alt="">
         </div>
@@ -43,6 +45,8 @@
             </div>
            
     </main>
-
+    <div id='footer'>
+        <?php require "../requires/footer.php" ?>
+    </div>
 </body>
 </html>

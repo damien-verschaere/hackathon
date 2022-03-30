@@ -5,7 +5,9 @@
     margin:0;
     padding:0;
 }
-
+header{
+    min-height: 10%;
+}
 .containerNav{
 
     position: fixed;
@@ -72,7 +74,8 @@
     height: 500px;
 }
 .mainProduit{
-    height: 500px;
+    min-height: 100vh;
+    margin-top:10%;
 }
 .produit{
     display: flex;
