@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Newsreader:ital,wght@1,200&display=swap');
 
 /*////////HEADER///////*/
-
 *{
     margin:0;
     padding:0;
@@ -9,13 +8,12 @@
 header{
     min-height: 10%;
 }
-.containerNav{
 
+.containerNav{
     position: fixed;
     z-index: 10;
     width: 100%;
     height: 10%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,11 +62,156 @@ header{
 }
 
 /*////////INDEX/////////*/
+
+
 .imageAccueil img{
     position: relative;
     margin-top:5%;
     width: 100%;
-    height: 85vh;
+    height: 90vh;   
+} 
+
+ .textPre{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 5%;
+    width: 500px;
+    height: 400px;   
+}
+
+.textPre h1{
+    color:snow;
+    font-weight: bold;
+    font-family: "Varela Round", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.textPre button{
+    margin-top:10%;
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    color:#fff;
+    font-weight:bold;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    text-shadow: 1px 1px 0px #2f6627;
+    background:#7ed957;
+     
+}
+      
+.textpre button:hover {
+        background: #3eac08
+}
+
+
+.text{
+    font-size:20px
+}
+
+.containerRef{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerRef h1{
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: "Varela Round", sans-serif;
+    font-size: 25px;
+}
+
+.refs{
+    margin-top:2%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.video{
+    margin-right: 1%;
+}
+
+
+/*INDEX PRODUIT*/
+
+.containerProduit{
+    margin-top:10%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+}
+
+.prodImage{
+    width: 700px;
+    height: 500px;
+}
+
+.textProd1{
+    width: 200px;
+    font: size 25px;
+}
+
+/*/////AVIS CLIENT////*/
+
+.avisClient{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.avisClient h1{
+    font-size: 50px;
+    font-family: 'Newsreader', serif;
+}
+
+.comClient {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.avis{
+    padding:2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+}
+
+.avis img{
+    height: 150px;
+    width: 150px;
+}
+
+.avis p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.avis h4{
+    margin-top: 10%;
 }
 /*------------------------------------------------------------------ PRODUITS----------------------------------------------- */
 .produits{
@@ -78,10 +221,12 @@ header{
 .mainProduit h3,.P1 h3{
     text-align: center;
     margin-top: 5%;
+    color: #7ed957;
 }
 .mainProduit{
     min-height: 100vh;
     margin-top: 10%;
+    
 }
 .produit{
     display: flex;
@@ -209,6 +354,7 @@ ul{
     text-decoration: none;
     transform: scale(1.1);
     transition: transform 0.5s;
+    color:#7ed957;
 }
 
 .fa{

@@ -28,7 +28,7 @@
                 <button>achetez maintenant</button>
             </div>
         </div>
-
+        <h3>PEIGNEZ SANS DEBORDER</h3>
     </main>
     <?php require "../requires/footer.php" ;?>
 </body>

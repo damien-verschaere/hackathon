@@ -18,22 +18,22 @@
         <section class="produit">
             <div class="card " style="width: 18rem;">
                 <img src="../assets/img/champiface1.jpg" class="card-img-top" alt="champiface Klapss peinture">
-                <div class="card-body">
+                <div class="card-body text-center">
                     <h5 class="card-title">KLAPSS APPLICATEUR DE PEINTURE AVEC PINCEAU</h5>
                     <a href="pack1.php" class="btn btn-primary mt-5 ms-5 me-5">details produit</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="../assets/img/champiface1.jpg" class="card-img-top" alt="champiface Klapss peinture">
+                <img src="../assets/img/pack2.png" class="card-img-top" alt="champiface Klapss peinture">
                 <div class="card-body">
-                    <h5 class="card-title">KLAPSS Applicateur a réchampir + pinceau + 02 velours adhésifs de protection</h5>
+                    <h5 class="card-title text-center">KLAPSS Applicateur a réchampir + pinceau + 02 velours adhésifs de protection</h5>
                     <a href="pack2.php" class="btn btn-primary mt-3 ms-5 me-5">details produit</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
                 <img src="../assets/img/pack3.png" class="card-img-top" alt="champiface Klapss peinture">
                 <div class="card-body">
-                    <h5 class="card-title">Applicateur de peinture avec pinceau + pinceau de rechange pré percé</h5>
+                    <h5 class="card-title text-center">Applicateur de peinture avec pinceau + pinceau de rechange pré percé</h5>
                     <a href="pack3.php" class="btn btn-primary mt-3 ms-5 me-5  ">details produit</a>
                 </div>
             </div>

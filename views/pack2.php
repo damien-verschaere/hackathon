@@ -18,7 +18,7 @@
         <div class="pack2 ms-5">
             <img src="../assets/img/pack2.png" alt="Klapss champiface ">
             <div class="buttonP1 mx-3">
-                <h2 class="mx-5 mb-3 text-center">KLAPSS Applicateur a réchampir + pinceau + 02 velours adhésifs de protection</h2>
+                <h2 class="mx-5 mb-3 text-center">KLAPSS Applicateur a réchampir +<br> pinceau + 02 velours adhésifs de protection</h2>
                 <p>
                     2 adhésifs de protection pour remplacement après usure, 01 pour protection des murs, 01 pour porte-vitrée
                     Prise en main facile pour les peintres professionnels ou non.
